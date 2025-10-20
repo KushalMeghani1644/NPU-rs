@@ -39,18 +39,29 @@ Device Management
 
 ## Module Overview
 
-tensor       - Tensor operations (add, sub, mul, div, relu, sigmoid)
-device       - Device driver and state management
-memory       - Memory allocation and tracking
-compute      - Matrix multiplication and convolution units
-execution    - Operation execution and scheduling
-power        - DVFS and thermal management
-model        - Neural network model definitions
-quantization - INT8 quantization and calibration
-optimizer    - Graph optimization
-profiler     - Performance profiling
-perf_monitor - Real-time metrics
-error        - Error handling
+**tensor:** Tensor operations (add, sub, mul, div, relu, sigmoid)
+
+**device:** Device driver and state management
+
+**memory:** Memory allocation and tracking
+
+**compute:** Matrix multiplication and convolution units
+
+**execution:** Operation execution and scheduling
+
+**power:** DVFS and thermal management
+
+**model:** Neural network model definitions
+
+**quantization:** INT8 quantization and calibration
+
+**optimizer:** Graph optimization
+
+**profiler:** Performance profiling
+
+**perf_monitor:** Real-time metrics
+
+**error:** Error handling
 
 ## Download
 
