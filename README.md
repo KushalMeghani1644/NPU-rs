@@ -2,7 +2,7 @@
 
 A complete Rust driver for neural processing units on RISC-based boards with 20 TOPS peak performance.
 
-NOTE: I don't own a real RISC board thus this code was tested on VM please make sure to use at your own risk.
+NOTE: I don't own a real RISC board thus this code wasn't tested on real RISCV hardware, please make sure to use at your own risk.
 
 ## Features
 
