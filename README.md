@@ -52,14 +52,24 @@ profiler     - Performance profiling
 perf_monitor - Real-time metrics
 error        - Error handling
 
+## Download
+
+```bash
+cargo install npu-rs
+```
+
 ## Building
 
+```bash
 cargo build --release
+```
 
 ## Running
 
+```bash
 cargo run                              # Full demo
 cargo run --example full_inference_pipeline  # Example pipeline
+```
 
 ## Device Configuration
 
