@@ -1,6 +1,6 @@
 [package]
 name = "npu-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["KushalMeghani1644 kushalmeghani108.com"]
 description = "A NPU driver for RISCV boards"

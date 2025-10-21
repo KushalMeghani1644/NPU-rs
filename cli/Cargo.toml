@@ -1,7 +1,16 @@
 [package]
 name = "npu-cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+authors = ["KushalMeghani1644 kushalmeghani108.com"]
+description = "A NPU driver for RISCV boards"
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/KushalMeghani1644/NPU-rs"
+homepage = "https://github.com/KushalMeghani1644/NPU-rs"
+keywords = ["rust", "example", "cli"]
+categories = ["command-line-utilities", "development-tools"]   
+exclude = [".github/*", "target/*"]                          
 
 [[bin]]
 name = "npu-cli"
