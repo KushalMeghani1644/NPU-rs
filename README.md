@@ -1,7 +1,8 @@
 # NPU Driver for 20 TOPS RISC Board
 
-A complete Rust driver for neural processing units on RISC-based boards with 20 TOPS peak performance.
+A Simulation Rust driver for neural processing units on RISC-based boards with 20 TOPS peak performance.
 
+NOTE: *This crate is a simulator Real hardware integration requires HAL implementation and Linux kernel module support.
 NOTE: I don't own a real RISC board thus this code wasn't tested on real RISCV hardware, please make sure to use at your own risk.
 
 ## Features
@@ -76,6 +77,8 @@ cargo build --release
 ```
 
 ## Running
+
+NOTE: THIS CODE RUNS ON CPU ONLY; NO REAL HARDWARE EXECUTION
 
 ```bash
 cargo run                              # Full demo
