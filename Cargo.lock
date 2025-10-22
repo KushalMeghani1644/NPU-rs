@@ -215,7 +215,7 @@ dependencies = [
 
 [[package]]
 name = "npu-rs"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "env_logger",
  "log",
